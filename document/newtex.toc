@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}The inner workings of Latex}{3}
+\contentsline {section}{\numberline {2}working with Latex Editors}{4}
+\contentsline {section}{\numberline {3}Gitting Guud}{5}
+\contentsline {section}{\numberline {4}More then a thousand words}{6}
+\contentsline {section}{\numberline {5}Font snazzy, make your work look Classy}{7}
+\contentsline {section}{\numberline {6}Citation Needed}{7}
+\contentsline {section}{\numberline {7}The wonderfull world of document formats}{8}
+\contentsline {section}{\numberline {8}Conclusions of this course}{8}
