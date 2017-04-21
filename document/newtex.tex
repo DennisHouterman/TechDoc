@@ -16,8 +16,8 @@
 
 \usepackage{graphicx}
 
-\bibliography{bibliotheek}
-\bibliographystyle{ieeetr}
+\usepackage{cite}
+
 
 
 \begin{document}
@@ -71,19 +71,20 @@ lets say, if we were to design this document, one person edits the part about "t
 \section{More then a thousand words}
 If you want to display images, it can be done. like this image here:
 
-\includegraphics*[scale = 0.57]{image}
+\includegraphics[height=5cm]{drawing.pdf}
 
 this image is included with the simple command of:
 
 \begin{lstlisting}[language=tex]
-	\includegraphics*[scale = 0.57]{image}
+	\includegraphics[height=5cm]{drawing.pdf}
 \end{lstlisting}
 
-of course you need to include this package before your document starts:
+of course you need to include a package before your document starts, like this one:
 
 \begin{lstlisting}[language=tex]
-	\usepackage{fancyhdr}
+	\usepackage{graphicx}
 \end{lstlisting}
+
 
 
 \newpage
@@ -106,9 +107,7 @@ To get a complete picture of everything that was said about typography, I refer 
 \section{Citation Needed}
 Besides making a simple assignment for TechDoc, or personal project descriptions, you might want to use Latex for research. but to be able to describe research you need sources to draw you research on. as a soon to be Applied Computer Scientist, I will need to do research and draw my research from sources to see if certain solutions are possible for example. By including research
 
-\cite{7794296}
-\cite{Jansen:2013:AAH:2492494.2501877}
-\cite{mccammon2002high}
+~\cite{Nobody06}
 
 
 \section{The wonderfull world of document formats}
@@ -118,5 +117,10 @@ If you're an eBook lover like me, you probably have encountered .epub and .pdf f
 \section{Conclusions of this course}
 This course has brought me a lot of valuable information. about the filetype's I have been using but did not comprehend where it was made out of, about how font types can impact how your message is brought and that several fonts can have different messages about the author, how to make very impressive slideshows with reveal.js and most of all, to make technical documentation that can be kept very clean by having full control over every element present in the text as well as the text itself.
 
+Git: https://github.com/DennisHouterman/TechDoc
+
+
+\bibliography{mybib}
+\bibliographystyle{ieeetr}
 
 \end{document}
